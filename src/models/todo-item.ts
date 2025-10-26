@@ -1,5 +1,6 @@
 export interface ToDo {
-  id: number,
+  id: string,
   title: string,
-  isDone: boolean
+  isDone: boolean,
+  createdAt?: string
 }
